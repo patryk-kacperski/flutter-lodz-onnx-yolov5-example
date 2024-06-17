@@ -1,0 +1,31 @@
+name: flutter_onnx_example
+description: "Flutter onnx example"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  camera: 0.11.0+1
+  cupertino_icons: ^1.0.2
+  image: 4.0.15
+  flutter:
+    sdk: flutter
+  onnxruntime: 1.4.1
+  path_provider: 2.1.3
+  path: 1.8.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - tiny-yolov3-11.ort
+    - tiny-yolov3-11.onnx

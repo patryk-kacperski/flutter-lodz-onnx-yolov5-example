@@ -27,5 +27,4 @@ flutter:
   uses-material-design: true
 
   assets:
-    - tiny-yolov3-11.ort
-    - tiny-yolov3-11.onnx
+    - yolov5n.onnx
